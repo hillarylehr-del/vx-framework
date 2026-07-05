@@ -212,6 +212,13 @@ select:focus-visible {
   color: var(--color-accent-deep);
 }
 
+.nav-links a.btn,
+.nav-links a.btn:hover,
+.nav-links a.btn[aria-current="page"] {
+  color: var(--color-white);
+  border-bottom-color: transparent;
+}
+
 .nav-toggle {
   display: none;
   background: none;
