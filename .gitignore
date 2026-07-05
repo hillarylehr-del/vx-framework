@@ -1,0 +1,12 @@
+.DS_Store
+assets/img/original/
+.claude/settings.local.json
+
+# Raw source materials kept locally for reference, not part of the deployed site
+/IMG_3680 copy.jpeg
+/IMG_3709 copy.jpeg
+/VX ParkingLot ObservationsIncentivesBlocksQuestionsjpg copy.jpg
+/VX Summit Exercise  copy.jpeg
+/Voter Experience Journey Map copy.jpg
+/\[FACILITATOR GUIDE\] Voter Experience Journey Mapping Complete Facilitation Guide v1.pdf
+/VX_Website_Build_Brief_v2.md

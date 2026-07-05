@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner: Bring VX to your community | VX Framework</title>
+<meta name="description" content="We are piloting the VX Framework with campaigns, election administrators, and civic organizations through the 2026 cycle. Tell us how you'd like to work together.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+<!-- Analytics snippet goes here (Plausible or GA4), to be added post-launch -->
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-nav">
+  <div class="container">
+    <a class="nav-brand" href="/">VX Framework</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/workshop-kit">Workshop Kit</a></li>
+        <li><a href="/report-backs">Report-Backs</a></li>
+        <li><a href="/partner" aria-current="page">Partner</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a class="btn btn-primary btn-small" href="/workshop-kit">Get the Kit</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <span class="eyebrow">Partner</span>
+      <h1>Bring VX to your community</h1>
+      <p class="subhead">We are piloting the VX Framework with campaigns, election administrators, and civic organizations through the 2026 cycle. If you would like to work together, tell us a little about you.</p>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="container">
+      <p class="text-muted" style="max-width: 640px; margin-bottom: 2.5em;">Pilots range from a single facilitated workshop to a deeper collaboration mapping a specific voter journey. There are also other ways to support the work. Every note gets read.</p>
+
+      <form class="form-card" action="https://formspree.io/f/xlgyzpav" method="POST" data-formspree data-success-message="Thank you. We will be in touch soon.">
+        <div class="form-field">
+          <label for="p-name">Name</label>
+          <input type="text" id="p-name" name="name" required>
+        </div>
+        <div class="form-field">
+          <label for="p-org">Organization</label>
+          <input type="text" id="p-org" name="organization" required>
+        </div>
+        <div class="form-field">
+          <label for="p-role">Role</label>
+          <input type="text" id="p-role" name="role">
+        </div>
+        <div class="form-field">
+          <label for="p-email">Email</label>
+          <input type="email" id="p-email" name="email" required>
+        </div>
+        <div class="form-field">
+          <label id="p-engage-label">How would you like to engage?</label>
+          <div class="radio-group" role="radiogroup" aria-labelledby="p-engage-label">
+            <label class="radio-option">
+              <input type="radio" name="engagement_type" value="Host a VX workshop" required>
+              <span>Host a VX workshop</span>
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="engagement_type" value="Pilot the framework with the VX team's support">
+              <span>Pilot the framework with the VX team's support</span>
+            </label>
+            <label class="radio-option">
+              <input type="radio" name="engagement_type" value="Support the work in other ways">
+              <span>Support the work in other ways</span>
+            </label>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="p-more">Tell us more</label>
+          <textarea id="p-more" name="more_info" rows="4"></textarea>
+        </div>
+        <div class="checkbox-field">
+          <input type="checkbox" id="p-newsletter" name="newsletter_optin" value="yes">
+          <label for="p-newsletter">Keep me posted on VX</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style="margin-top: 8px;">Start the Conversation</button>
+        <div class="form-status" role="status"></div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand-col">
+        <div class="footer-brand">VX Framework</div>
+        <p class="footer-desc">A civic research and facilitation tool for mapping the voter experience across the electoral journey.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/workshop-kit">Workshop Kit</a></li>
+          <li><a href="/report-backs">Report-Backs</a></li>
+          <li><a href="/partner">Partner</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Questions? Reach us through the <a href="/partner">Partner page</a>.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>Developed in partnership with the Allen Lab for Democracy Renovation, Harvard Ash Center.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/js/forms.js"></script>
+</body>
+</html>

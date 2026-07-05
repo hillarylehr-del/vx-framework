@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "vx-static-site",
+      "runtimeExecutable": "/usr/bin/python3",
+      "runtimeArgs": ["/Users/hill/Desktop/VX SUMMIT/vx folder for site build w claude/scripts/dev-server.py", "4321"],
+      "port": 4321
+    }
+  ]
+}
