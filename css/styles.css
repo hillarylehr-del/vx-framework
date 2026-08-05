@@ -653,6 +653,10 @@ section.tight { padding: 40px 0; }
   color: var(--color-text-muted);
   margin-top: 14px;
 }
+.team-photo-wrap figcaption.mono-caption {
+  font-family: var(--font-mono);
+  font-size: 13px;
+}
 
 /* ---- Footer ---- */
 .site-footer {
